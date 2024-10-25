@@ -3,11 +3,11 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "AIzaSyChwEIjeMtU3_ObWfxXLPa61rbnZE5-oxw"
-ENGINE_ID = "e44a4cd7a664b49c1"
+API_KEY = ""
+ENGINE_ID = ""
 
 def search(query):
-    url = f"https://www.googleapis.com/customsearch/v1"
+    url = 
     params = {
         "key": API_KEY,
         "cx": ENGINE_ID,
