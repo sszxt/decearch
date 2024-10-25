@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decearch</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>DECEARCH</h1>
+      <form action="/search" method="GET" class="search-bar">
+        <input type="text" name="query" placeholder="Search the web" />
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/feed/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.pinterest.com/"
+          ><i class="fab fa-pinterest"></i
+        ></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://discord.com/"><i class="fab fa-discord"></i></a>
+        <a href="https://github.com/"><i class="fab fa-github"></i></a>
+      </div>
+
+      <div class="Page2">
+        <h1>About Decearch</h1>
+        <p>
+          Decearch is a powerful and privacy-focused search engine that aims to
+          provide you with the best search experience while respecting your
+          privacy.
+        </p>
+        <p>
+          We believe that you should have control over your data and search
+          queries. That's why we don't track your searches or collect personal
+          information.
+        </p>
+        <p>
+          With Decearch, you can search the web with confidence, knowing that
+          your privacy is our top priority. Join us in our mission to make the
+          web a better place for everyone.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+<style>
+  body {
+    font-family: Arial;
+    background-image: linear-gradient(to bottom, #222633, #141723);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    text-align: center;
+    padding: 40px;
+    background: none;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+    letter-spacing: 0px;
+  }
+
+  .search-bar {
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+  }
+
+  input[type="text"] {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    width: 500px;
+  }
+
+  button {
+    padding: 14px 20px;
+    background-color: #58629b;
+    color: #fff;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #3e4071;
+  }
+
+  .social-icons a {
+    color: grey;
+    font-size: 38px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  .Page2 {
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(100px);
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    letter-spacing: 3px;
+  }
+
+  .description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .back-link {
+    color: #58629b;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .back-link:hover {
+    color: #3e4071;
+  }
+</style>
